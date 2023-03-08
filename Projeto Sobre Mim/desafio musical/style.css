@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #d6b8f5;
+    --cor02: #3d7c76;
+    --cor03: #ffffff;
+    --cor04: #d9ff04;
+    --cor05: #fa0000;
+    --cor06: #4b4949;
+    --cor07: #086970;
+    --cor08: #3a04ff;
+    --cor09: #bc8ffa;
+    --cor10: #ad77f7;
+}
+
+#principal {
+    background-color: var(--cor01);
+}
+
+body {
+    background-image: url("imagens/fundo.gif");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+
+nav {
+    padding: 30px;
+    background-color: var(--cor10);
+    text-align: center;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.473);
+}
+
+nav > a {
+    margin: 75px;
+    padding: 20px;
+    color: var(--cor03);
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: var(--cor010);
+    background-color: var(--cor09);
+    text-decoration: underline;
+    border-radius: 20px;
+    }
+
+div > img {
+    margin: 17px;
+    height: 300px;
+    width: 300px;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor10));
+    text-align: center;
+    margin: -20px 0px;
+    padding: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.459);
+}
+
+article > h2 {
+    text-align: justify;
+    font-weight: normal;
+    font-size: 1.8;
+    padding: 10px 10px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.459);
+    
+}
+
+.importante {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 10px 10px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.459);
+    color: #ffffff;
+}
+
+article > p {
+    padding: 0px 10px;
+    color: var(--cor10);
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.459);
+}
+
+main h2 {
+    text-align: justify;
+    font-weight: normal;
+    font-size: 1.8;
+    padding: 10px 10px 0px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.459);
+}
+
+main p {
+    color: var(--cor01);
+    padding: 0px 10px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.459);
+}
+
+ul {
+    margin-left: 50px;
+    color: var(--cor06);
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.459);
+}
+
+ol {
+    margin-left: 50px;
+    color: var(--cor06);
+    padding: 0px 10px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.459);
+}
+
+article img {
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+article a {
+    text-decoration: none;
+    color: var(--cor03);
+}
+
+article a:hover {
+    text-decoration: underline;
+    color: var(--cor05);
+}
+
+.primeiralinha {  
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 5%;
+
+
+}
+.primeiralinha a{
+    color: #ffffff;
+}
+
+.primeiralinha img:hover{
+    transform: translatex(0.5%) scale(1.1);
+}
+.primeiralinha img{
+    transition: .2s;
+}
+.segundalinha img:hover{
+    transform: translatex(0.5%) scale(1.1);
+}
+.segundalinha img{
+    transition: .2s;
+}
+
+.segundalinha {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    
+    }
+    .segundalinha a{
+        color: #ffffff;
+    }
+    
+
+
+.box0{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}  
+
+
+.box1{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.box2{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.box3{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.box4{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.box5{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.musicasmeio{
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.receitasmeio{
+    color: #ffffff;
+}
+
+.futuromeio{
+    text-align: center;
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+.curiosidades2{
+    text-align: center;
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+
+
+
+
